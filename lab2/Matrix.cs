@@ -64,29 +64,5 @@ namespace labs.lab2
                 Console.WriteLine();
             }
         }
-
-        /*public void fill()
-        {
-            bool flag = true;
-            do
-            {
-                try
-                {
-#if DEBUG
-                    Console.WriteLine("Введите размерность матрицы [N M]: ");
-#endif
-                    string str = Console.ReadLine();
-                    this.N = Convert.ToInt32(str.Split(' ')[0]);
-                    this.M = Convert.ToInt32(str.Split(' ')[1]);
-                    flag = false;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-            } while (flag);
-
-        }*/
-
     }
 }
