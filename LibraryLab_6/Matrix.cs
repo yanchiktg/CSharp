@@ -4,7 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+Программа рассчитывает сумму первой матрицы и матрицы транспонированной относительно второй. 
+Обе матрицы хранятся в отдельных файлах. 
+*/
 namespace LibraryLab_6
 {
     public class Matrix
